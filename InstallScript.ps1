@@ -11,6 +11,6 @@
 ##################
 
 ##Gaming
-    choco install steam #Steam
-    choco install uplay #UPlay
-    choco install epicgameslauncher #Epic        
+    choco install steam -y #Steam
+    choco install uplay -y #UPlay
+    choco install epicgameslauncher -y #Epic        
