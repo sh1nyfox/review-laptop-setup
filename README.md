@@ -4,7 +4,6 @@ Any advice on how to streamline the process will be greatfully received. I'm a c
 
 Current plan: 
 
-- Set Execution Policy
-- Install Chocolately
+- Install Chocolatey
 - Pull various packages for gaming, benchmarking, everyday use
 - Split off forks for different types of laptop (gaming, Ultrabooks etc)
