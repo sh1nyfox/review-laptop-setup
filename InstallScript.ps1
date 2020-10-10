@@ -1,5 +1,6 @@
-# Set execution policy, install Chocolatey, then all required packages 
+# Install Chocolatey, then all required packages 
 
-# Set execution policy as administrator
-runas /user:Administrator Set-ExecutionPolicy Unrestricted -Force
+# Install Chocolatey 
+
+    Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
