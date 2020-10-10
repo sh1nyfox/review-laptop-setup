@@ -16,7 +16,6 @@
     choco install epicgameslauncher -y #Epic       
     choco install goggalaxy -y #GOG Galaxy
     choco install origin -y #Origin
-    choco install nzxt-cam -y #NZXT Cam
     
 ##Benchmarks
     choco install crystaldiskmark -y #CrystalDiskMark
