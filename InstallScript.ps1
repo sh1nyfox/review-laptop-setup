@@ -13,4 +13,13 @@
 ##Gaming
     choco install steam -y #Steam
     choco install uplay -y #UPlay
-    choco install epicgameslauncher -y #Epic        
+    choco install epicgameslauncher -y #Epic       
+    choco install goggalaxy -y #GOG Galaxy
+    choco install origin -y #Origin
+    choco install nzxt-cam -y #NZXT Cam
+    
+##Benchmarks
+    choco install crystaldiskmark -y #CrystalDiskMark
+    choco install cpu-z -y #CPU-Z
+    choco install gpu-z -y #GPU-Z
+    choco install pci-z -y #PCI-Z
