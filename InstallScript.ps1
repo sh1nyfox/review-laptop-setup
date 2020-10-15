@@ -14,7 +14,6 @@
     choco install steam -y #Steam
     choco install uplay -y #UPlay
     choco install epicgameslauncher -y #Epic       
-    choco install goggalaxy -y #GOG Galaxy
     choco install origin -y #Origin
     
 ##Benchmarks
