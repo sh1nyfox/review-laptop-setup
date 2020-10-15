@@ -8,6 +8,6 @@ Current plan:
 - Pull various packages for gaming, benchmarking, everyday use
 - Split off forks for different types of laptop (gaming, Ultrabooks etc)
 
-Future plan:
+Test Branch:
 
 - Run Windows Update from the same install script *after* app installs
