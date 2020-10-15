@@ -7,3 +7,7 @@ Current plan:
 - Install Chocolatey
 - Pull various packages for gaming, benchmarking, everyday use
 - Split off forks for different types of laptop (gaming, Ultrabooks etc)
+- Making a change
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbODYzMDg2OTMwXX0=
+-->
