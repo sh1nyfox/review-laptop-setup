@@ -29,5 +29,11 @@
   Write-Output "Installing Google Chrome"
   $Path = $env:TEMP; $Installer = "chrome_installer.exe"; Invoke-WebRequest "http://dl.google.com/chrome/install/375.126/chrome_installer.exe" -OutFile $Path\$Installer; Start-Process -FilePath $Path\$Installer -Args "/silent /install" -Verb RunAs -Wait; Remove-Item $Path\$Installer
 
-## Run Windows Update
-  
+## Install and run Windows Update
+
+# Install Windows Update module
+  Install-Module PSWindowsUpdate
+
+#Run WindowsUpdate
+  Add-WUServiceManager -MicrosoftUpdate
+  Install-WindowsUpdate -MicrosoftUpdate -AcceptAll -AutoReboot 
