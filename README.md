@@ -11,3 +11,4 @@ Current plan:
 Future plan:
 
 - Run Windows Update from the same install script *after* app installs
+- Add batch file to make script executable.
